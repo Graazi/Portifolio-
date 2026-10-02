@@ -133,6 +133,8 @@ textarea {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .profile-photo img {
@@ -140,20 +142,6 @@ textarea {
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-.photo-placeholder {
-    width: min(330px, 75vw);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 5rem;
-    font-weight: 800;
-    color: white;
-    background: linear-gradient(145deg, var(--primary), #9c83ff);
-    box-shadow: 0 25px 60px rgba(108, 76, 230, 0.30);
-    border: 10px solid var(--surface);
 }
 
 .hero-text {
