@@ -135,13 +135,14 @@ textarea {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    place-items: center;
 }
 
 .profile-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
+    display: grid;
 }
 
 .hero-text {
